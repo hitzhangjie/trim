@@ -14,7 +14,7 @@ const tabChar = "\t"
 var (
 	lines         = []string{}
 	minPrefixLen  = math.MaxInt64
-	tabCharSpaces = strings.Repeat(" ", 2)
+	tabCharSpaces = strings.Repeat(" ", 4)
 )
 
 func main() {
